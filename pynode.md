@@ -23,6 +23,12 @@ $ docker run -it okdocker/pynode:latest /bin/bash
 
 Application code should go into the `/app` default working directory, image do not use volumes and expose no ports.
 
+A real world example would probably use it as base image for a custom image. Here is a minimalistic working dockerfile.
+
+{% highlight docker %}
+{% include_relative examples/pynode/Dockerfile %}
+{% endhighlight %}
+
 ## Tags
 
 * lts (or 3.6-6.x): Node.js LTS
