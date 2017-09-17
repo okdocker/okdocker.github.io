@@ -14,6 +14,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rdorgueil
 github_username:  okdocker
 
+
+github:
+  is_project_page: true
+  repository_name: Ok, Docker
+  repository_url: https://github.com/okdocker
+  owner_url: https://github.com/hartym
+  owner_name: Romain Dorgueil
+
+google_analytics: UA-4678258-13
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
