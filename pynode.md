@@ -39,3 +39,4 @@ A real world example would probably use it as base image for a custom image. Her
 * [Recipe](https://github.com/okdocker/pynode)
 * [Build](https://travis-ci.org/okdocker/pynode)
 * [Hub](https://hub.docker.com/r/okdocker/pynode/)
+* [Mirror](https://quay.io/repository/okdocker/pynode?tab=tags)
