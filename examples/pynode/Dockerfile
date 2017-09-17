@@ -10,8 +10,11 @@ RUN yarn install
 
 # Application
 ADD public /app/public
+WORKDIR /app/public
+RUN ln -s ../node_modules/jquery/dist/jquery.min.js jquery.js \
+ && ln -s ../node_modules/bootstrap/dist/js/bootstrap.min.js bootstrap.js \
+ && ln -s ../node_modules/bootstrap/dist/css/bootstrap.min.css bootstrap.css
 
 # Public interface
 EXPOSE 8000
-WORKDIR /app/public
 CMD python -m http.server
