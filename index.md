@@ -16,3 +16,7 @@ layout: default
 * lts (or 3.6-6.x): Node.js LTS
 * latest (or 3.6-8.x): Node.js Current
 
+## Links
+
+* [Recipe](https://github.com/okdocker/pynode)
+* [Build](https://travis-ci.org/okdocker/pynode)
