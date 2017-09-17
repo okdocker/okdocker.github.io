@@ -6,7 +6,7 @@ description: Debian, Python and Node.js docker image, built daily on travis. Con
 
 # okdocker/pynode
 
-A docker image that bundles both modern Python interpreter and Node.js, with Yarn.
+A docker image based on debian jessie that bundles both modern Python interpreter and Node.js, with Yarn.
 
 ## Content
 
