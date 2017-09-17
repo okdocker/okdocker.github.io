@@ -1,7 +1,18 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-This page will be available soon.
+
+# [okdocker/pynode](https://hub.docker.com/r/okdocker/pynode/)
+
+## Contains
+
+* Debian Jessie
+* Python 3.6 (will stay on latest stable python 3)
+* Node.js (LTS or Current)
+* Yarn
+
+## Tags
+
+* lts (or 3.6-6.x): Node.js LTS
+* latest (or 3.6-8.x): Node.js Current
+
