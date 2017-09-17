@@ -8,7 +8,7 @@
 title: Ok, Docker
 email: okdocker@rdc.li
 description: >
-  Ready to use, debian-based docker images.
+  Ready to use base docker images.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rdorgueil

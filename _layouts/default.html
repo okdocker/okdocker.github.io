@@ -21,6 +21,26 @@
         float: left;
       }
 
+      header ul.list {
+        list-style: inherit;
+        height: auto;
+        background: none;
+        border: none;
+        width: auto;
+        margin-left: 32px;
+      }
+
+      header ul.list li {
+        border: none;
+        width: 100%;
+        float: none;
+        text-align: left;
+      }
+      header ul.list a {
+        float: left;
+        width: auto;
+        text-align: left;
+      }
     </style>
   </head>
   <body>
@@ -46,6 +66,18 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
+
+        <h2>Quick access</h2>
+
+        <ul class="list">
+          <li>
+            <a href="/pynode">okdocker/pynode</a>
+            <div style="float:right">
+            <a class="github-button" href="https://github.com/okdocker/pynode" data-icon="octicon-star" data-show-count="true" aria-label="Star okdocker/pynode on GitHub">Star</a>
+            </div>
+          </li>
+        </ul>
+
       </header>
       <section>
 
@@ -72,5 +104,6 @@
         ga('send', 'pageview');
     </script>
   {% endif %}
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>
