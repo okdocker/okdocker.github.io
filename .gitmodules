@@ -1,0 +1,3 @@
+[submodule "examples/nginx/etc/nginx"]
+	path = examples/nginx/etc/nginx
+	url = https://github.com/okdocker/server-configs-nginx
