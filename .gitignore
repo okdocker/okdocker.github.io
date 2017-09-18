@@ -1,3 +1,4 @@
+*.sw?
 .jekyll-metadata
 .sass-cache
 .vscode
