@@ -17,8 +17,13 @@
 
     section {
       width: auto;
-      padding-left: 320px;
       float: left;
+    }
+
+    @media only screen and (min-device-width : 768px) {
+      section {
+        padding-left: 320px;
+      }
     }
 
     header ul {
@@ -72,8 +77,8 @@
     <header>
       <h1>
         <a href="/">
+            <img src="https://avatars1.githubusercontent.com/u/13619428" width="115" height="115"><br/>
             {{ site.title | default: site.github.repository_name }}
-            <img src="https://avatars1.githubusercontent.com/u/13619428" width="115" height="115">
           </a>
       </h1>
       <p>{{ site.description | default: site.github.project_tagline }}</p>
