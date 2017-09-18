@@ -2,12 +2,15 @@
 layout: default
 title: okdocker/nginx
 description: Debian strech, nginx and ngx_pagespeed module, compiled as a .deb in a separate container and installed in a clean debian.
+comments: true
 ---
 
 # okdocker/nginx
 
 A docker image based on debian stretch containing the nginx web server with ngx_pagespeed, a web
 performance module.
+
+<div class="addthis_inline_share_toolbox"></div><br/>
 
 ## Content
 

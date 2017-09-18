@@ -8,12 +8,11 @@
 title: Ok, Docker
 email: okdocker@rdc.li
 description: >
-  Ready to use base docker images.
+  Ready to use, secure and lean docker images.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rdorgueil
 github_username:  okdocker
-
 
 github:
   is_project_page: true
@@ -29,6 +28,8 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

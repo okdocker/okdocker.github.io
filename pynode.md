@@ -2,11 +2,14 @@
 layout: default
 title: okdocker/pynode
 description: Debian, Python and Node.js docker image, built daily on travis. Contains Yarn for Node.js package management.
+comments: true
 ---
 
 # okdocker/pynode
 
 A docker image based on debian jessie that bundles both modern Python interpreter and Node.js, with Yarn.
+
+<div class="addthis_inline_share_toolbox"></div><br/>
 
 ## Content
 

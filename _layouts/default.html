@@ -114,6 +114,24 @@
 
       {{ content }}
 
+      {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+            this.page.url = PAGE_URL;
+            this.page.identifier = PAGE_IDENTIFIER;
+            this.page.url = "https://okdocker.github.io{{ page.url }}";
+            this.page.identifier = "{{ page.id }}";
+          };
+          (function () {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://okdocker.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+      {% endif %}
+
     </section>
     <footer>
       {% if site.github.is_project_page %}
@@ -142,6 +160,7 @@
     ga('send', 'pageview');
   </script>
   {% endif %}
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59bf7799245a7ef2"></script> 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
