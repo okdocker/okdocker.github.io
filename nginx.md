@@ -18,7 +18,7 @@ performance module.
 ## Usage
 
 {% highlight console %}
-$ docker run -it -p 80:80 -p 443:443 okdocker/nginx:mainline
+$ docker run -it -p 80:80 okdocker/nginx:mainline
 {% endhighlight %}
 
 A real world example would probably use it as base image for a custom image. Here is a minimalistic working dockerfile.
@@ -29,16 +29,23 @@ You may want to override the `/etc/nginx` directory with your own configuration.
 {% include_relative examples/nginx/Dockerfile %}
 {% endhighlight %}
 
+You can have a look at [the basic okdocker/nginx example](https://github.com/okdocker/okdocker.github.io/tree/master/examples/nginx).
+
 ## Interface
 
 ### Volumes
 
-* `/var/cache/nginx/` is a volume that contains all nginx cache-related stuff. You should use a subdirectory for pagespeed cache intended to be on disk.
+* `/var/cache/nginx/`: cache-related stuff for nginx; on-disk pagespeed cache should go in a subfolder.
 
 ### Ports
 
 * HTTP (80)
 * HTTPS (443)
+
+### Paths
+
+* `/etc/nginx/`: nginx configuration
+* `/var/www/`: static files, usually one subfolder per site.
 
 ## Compile-time configuration
 
@@ -69,6 +76,7 @@ nginx http scgi temporary files: "/var/cache/nginx/scgi_temp"
 * [Build](https://travis-ci.org/okdocker/nginx)
 * [Hub](https://hub.docker.com/r/okdocker/nginx/)
 * [Mirror](https://quay.io/repository/okdocker/nginx?tab=tags)
+* [Nginx configuration boilerplate](https://github.com/okdocker/server-configs-nginx)
 
 
 

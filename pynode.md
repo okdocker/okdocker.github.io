@@ -29,6 +29,8 @@ A real world example would probably use it as base image for a custom image. Her
 {% include_relative examples/pynode/Dockerfile %}
 {% endhighlight %}
 
+You can have a look at [the basic okdocker/pynode example](https://github.com/okdocker/okdocker.github.io/tree/master/examples/pynode).
+
 ## Tags
 
 * lts (or 3.6-6.x): Node.js LTS
