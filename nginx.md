@@ -10,7 +10,7 @@ comments: true
 A docker image based on debian stretch containing the nginx web server with ngx_pagespeed, a web
 performance module.
 
-<div class="addthis_inline_share_toolbox"></div><br/>
+[![Build Status](https://travis-ci.org/okdocker/nginx.svg?branch=master)](https://travis-ci.org/okdocker/nginx)
 
 ## Content
 

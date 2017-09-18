@@ -9,7 +9,7 @@ comments: true
 
 A docker image based on debian jessie that bundles both modern Python interpreter and Node.js, with Yarn.
 
-<div class="addthis_inline_share_toolbox"></div><br/>
+[![Build Status](https://travis-ci.org/okdocker/pynode.svg?branch=master)](https://travis-ci.org/okdocker/pynode)
 
 ## Content
 
